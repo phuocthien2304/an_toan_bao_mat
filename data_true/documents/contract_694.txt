@@ -1,0 +1,24 @@
+
+    HỢP ĐỒNG GIAO DỊCH NGÂN HÀNG
+    Số hợp đồng: CONTRACT-544045
+
+    Hôm nay, ngày 31/01/2025, giữa:
+
+    BÊN A: ANreNxpbMo (Số ĐKKD: 329879843)
+    BÊN B: LJFaRVWzjZ (Số ĐKKD: 367670788)
+
+    Các bên đã thống nhất ký kết hợp đồng giao dịch ngân hàng với các điều khoản sau:
+
+    1. Số tiền giao dịch: 999199.11 VND
+    2. Điều khoản thanh toán:
+        Điều khoản 1: Bên A cam kết chuyển nhượng số tiền cho Bên B trong vòng 10 ngày kể từ ngày ký hợp đồng.
+    3. Thời gian thực hiện giao dịch: 10 ngày kể từ ngày ký hợp đồng.
+
+    Các bên cam kết thực hiện đầy đủ các nghĩa vụ và quyền lợi của mình theo hợp đồng này.
+
+    Ký tên:
+
+    BÊN A: ________________________    BÊN B: ________________________
+
+    Ngày ký hợp đồng: 31/01/2025
+    
