@@ -1,0 +1,14 @@
+
+    HỢP ĐỒNG GIAO DỊCH NGÂN HÀNG
+    Số hợp đồng: CONTRACT-245793
+
+    Hôm nay, ngày 31/03/2024, giữa:
+
+    BÊN A: bSdWXSPkQW (Số ĐKKD: 542997801)
+    BÊN B: aPfSlMksle (Số ĐKKD: 654404934)
+
+    Các bên đã thống nhất ký kết hợp đồng giao dịch ngân hàng với các điều khoản sau:
+
+    1. Số tiền giao dịch: 236397.03 VND
+    2. Điều khoản thanh toán: 
+    

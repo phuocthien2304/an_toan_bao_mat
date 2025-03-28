@@ -1,0 +1,17 @@
+
+    HỢP ĐỒNG GIAO DỊCH NGÂN HÀNG
+    Số hợp đồng: CONTRACT-399138
+
+    Hôm nay, ngày 15/03/2025, giữa:
+
+    BÊN A: OEOQdVEsby (Số ĐKKD: 817034084)
+    BÊN B: nRDeeAZSdl (Số ĐKKD: 263959599)
+
+    Các bên đã thống nhất ký kết hợp đồng giao dịch ngân hàng với các điều khoản sau:
+
+    1. Số tiền giao dịch: 362793.0 VND
+    2. Điều khoản thanh toán:
+        Điều khoản 1: Bên A cam kết chuyển nhượng số tiền cho Bên B trong vòng 10 ngày kể từ ngày ký hợp đồng.
+    3. Thời gian thực hiện giao dịch: 10 ngày kể 
+    Ngày ký hợp đồng: 15/03/2025
+    

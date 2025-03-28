@@ -1,0 +1,14 @@
+
+    HỢP ĐỒNG GIAO DỊCH NGÂN HÀNG
+    Số hợp đồng: CONTRACT-171614
+
+    Hôm nay, ngày 05/02/2025, giữa:
+
+    BÊN A: fNvxrdGpyo (Số ĐKKD: 778343348)
+    BÊN B: izTgTvAzas (Số ĐKKD: 947903257)
+
+    Các bên đã thống nhất ký kết hợp đồng giao dịch ngân hàng với các điều khoản sau:
+
+    1. Số tiền giao dịch: 277780.53 VND
+    2. Điều khoản thanh toán:
+        Điều khoản 1: Bên A cam 

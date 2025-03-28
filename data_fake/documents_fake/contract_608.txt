@@ -1,0 +1,15 @@
+
+    HỢP ĐỒNG GIAO DỊCH NGÂN HÀNG
+    Số hợp đồng: CONTRACT-393190
+
+    Hôm nay, ngày 14/05/2024, giữa:
+
+    BÊN A: uBLkaJbaBe (Số ĐKKD: 725119701)
+    BÊN B: IFyRdLVbud (Số ĐKKD: 210804399)
+
+    Các bên đã thống nhất ký kết hợp đồng giao dịch ngân hàng với các điều khoản sau:
+
+    1. Số tiền giao dịch: 919439.33 VND
+    2. Điều khoản thanh toán:
+        Điều khoản 1: Bên A cam kết chuyển nhượng số tiền cho Bên B trong vòng 10 ngày kể từ ngày ký hợp đồng.
+    3. Thời gian thực hiện gia 

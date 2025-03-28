@@ -1,0 +1,16 @@
+
+    HỢP ĐỒNG GIAO DỊCH NGÂN HÀNG
+    Số hợp đồng: CONTRACT-764606
+
+    Hôm nay, ngày 05/03/2025, giữa:
+
+    BÊN A: HbMCqrPMbv (Số ĐKKD: 420561497)
+    BÊN B: aGwnbHOLaB (Số ĐKKD: 155597395)
+
+    Các bên đã thống nhất ký kết hợp đồng giao dịch ngân hàng với các điều khoản sau:
+
+    1. Số tiền giao dịch: 156267.61 VND
+    2. Điều khoản thanh toán:
+        Điều khoản 5: Hợp đồng này có hiệu lực kể từ ngày ký và có thể được gia hạn sau khi hai bên thỏa thuận.
+    3. Thời gian thực 05/03/2025
+    

@@ -1,0 +1,17 @@
+
+    HỢP ĐỒNG GIAO DỊCH NGÂN HÀNG
+    Số hợp đồng: CONTRACT-823948
+
+    Hôm nay, ngày 04/11/2024, giữa:
+
+    BÊN A: bEANLABJVd (Số ĐKKD: 359257785)
+    BÊN B: XLkZOOfWxL (Số ĐKKD: 225653223)
+
+    Các bên đã thống nhất ký kết hợp đồng giao dịch ngân hàng với các điều khoản sau:
+
+    1. Số tiền giao dịch: 79420.57 VND
+    2. Điều khoản thanh toán:
+        Điều khoản 3: Bên   BÊN B: ________________________
+
+    Ngày ký hợp đồng: 04/11/2024
+    
