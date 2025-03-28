@@ -1,0 +1,17 @@
+
+    HỢP ĐỒNG GIAO DỊCH NGÂN HÀNG
+    Số hợp đồng: CONTRACT-709229
+
+    Hôm nay, ngày 18/03/2025, giữa:
+
+    BÊN A: QZlVtRUgkj (Số ĐKKD: 614347698)
+    BÊN B: bIqAFQRoqz (Số ĐKKD: 437552609)
+
+    Các bên đã thống nhất ký kết hợp đồng giao dịch ngân hàng với các điều khoản sau:
+
+    1. Số tiền giao dịch: 234672.94 VND
+    2. Điều khoản thanh toán:
+        Điều khoản 4: Bên A sẽ hỗ trợ Bên B trong các vấn đề liên quan đến việc sử dụng số tiền giao dịch.
+    3. Thời gian thực hiện 
+    Ngày ký hợp đồng: 18/03/2025
+    

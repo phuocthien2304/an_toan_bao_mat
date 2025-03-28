@@ -1,0 +1,18 @@
+
+    HỢP ĐỒNG GIAO DỊCH NGÂN HÀNG
+    Số hợp đồng: CONTRACT-176645
+
+    Hôm nay, ngày 05/01/2025, giữa:
+
+    BÊN A: ujthTOdEjf (Số ĐKKD: 318396335)
+    BÊN B: kSiIhEeZtM (Số ĐKKD: 253473669)
+
+    Các bên đã thống nhất ký kết hợp đồng giao dịch ngân hàng với các điều khoản sau:
+
+    1. Số tiền giao dịch: 179501.32 VND
+    2. Điều khoản thanh toán:
+        Điều khoản 4: Bên A sẽ hỗ trợ Bên B trong các vấn đề liên quan đến việc sử dụng số tiền giao dịch.
+    3. Thời gian thực hiện giao dịch: 10 ngày kể từ ngày ký hợp đồng.
+ 
+    Ngày ký hợp đồng: 05/01/2025
+    
