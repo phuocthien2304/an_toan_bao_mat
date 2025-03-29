@@ -1,0 +1,14 @@
+
+    HỢP ĐỒNG GIAO DỊCH NGÂN HÀNG
+    Số hợp đồng: CONTRACT-877404
+
+    Hôm nay, ngày 03/04/2024, giữa:
+
+    BÊN A: ktkjIERRDg (Số ĐKKD: 812407340)
+    BÊN B: aAnJPFCvrV (Số ĐKKD: 170349462)
+
+    Các bên đã thống nhất ký kết hợp đồng giao dịch ngân hàng với các điều khoản sau:
+
+    1. Số tiền giao dịch: 744787.88 VND
+    2. Điều khoản thđồng: 03/04/2024
+    

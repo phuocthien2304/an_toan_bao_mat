@@ -1,0 +1,15 @@
+
+    HỢP ĐỒNG GIAO DỊCH NGÂN HÀNG
+    Số hợp đồng: CONTRACT-486600
+
+    Hôm nay, ngày 10/07/2024, giữa:
+
+    BÊN A: QbQqrIIWMe (Số ĐKKD: 434506148)
+    BÊN B: XGRSXKIBOx (Số ĐKKD: 524131340)
+
+    Các bên đã thống nhất ký kết hợp đồng giao dịch ngân hàng với các điều khoản sau:
+
+    1. Số tiền giao dịch: 917892.21 VND
+    2. Điều khoản thanh toán:
+        Điều khoản 2: Bên B sẽ sử dụng số tiền này để thực hiện các giao dịch kinh doanh hợp pháp.
+    3. Thời gi

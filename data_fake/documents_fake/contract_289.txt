@@ -1,0 +1,19 @@
+
+    HỢP ĐỒNG GIAO DỊCH NGÂN HÀNG
+    Số hợp đồng: CONTRACT-104002
+
+    Hôm nay, ngày 13/09/2024, giữa:
+
+    BÊN A: 
+    BÊN A: PnxjhHSGih (Số ĐKKD: 352006888)
+    BÊN B: agwDNnMFuM (Số ĐKKD: 922807664)
+
+    Các bên đã thống nhất ký kết hợp đồng giao dịch ngân hàng với các điều khoản sau:
+
+    1. Số tiền giao dịch: 566722.48 VND
+    2. Điều khoản thanh toán:
+        Điều khoản 4: Bên A sẽ hỗ trợ Bên
+    BÊN A: ________________________    BÊN B: ________________________
+
+    Ngày ký hợp đồng: 13/09/2024
+    

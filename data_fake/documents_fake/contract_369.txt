@@ -1,0 +1,20 @@
+
+    HỢP ĐỒNG GIAO DỊCH NGÂN HÀNG
+    Số hợp đồng: CONTRACT-498534
+
+    Hôm nay, ngày 01/09/2024, giữa:
+
+    BÊN A: kHaDIbKbjw (Số ĐKKD: 161070827)
+    BÊN B: CaMHPJSXHm (Số ĐKKD: 647050274)
+
+    Các bên đã thống nhất ký kết hợp đồng giao dịch ngân hàng với các điều khoản sau:
+
+    1. Số tiền giao dịch: 14580.91 VND
+    2. Điều khoản thanh toán:
+        Điều khoản 4: Bên A sẽ hỗ trợ Bên B trong các vấn đề liên quan đến việc sử dụng số tiền giao dịch.
+    3. Thời gian thực hiện giao dịch: 10 ngày kể từ ngày ký hợp đồng.
+
+    Các bên cam_____________________    BÊN B: ________________________
+
+    Ngày ký hợp đồng: 01/09/2024
+    

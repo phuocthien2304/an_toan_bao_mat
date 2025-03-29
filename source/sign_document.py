@@ -38,12 +38,12 @@ def sign_multiple_documents(documents_folder, keys_folder, output_folder, num_do
     for i in range(1, num_documents + 1):
         # Đường dẫn tài liệu và khóa riêng
         document_path = os.path.join(
-            documents_folder, f"contract_fake_{i}.txt")
+            documents_folder, f"contract_{i}.txt")
         private_key_path = os.path.join(
-            keys_folder, f"private_key_fake_{i}.pem")
+            keys_folder, f"private_key_{5}.pem")
 
         # Đường dẫn lưu chữ ký
-        output_path = os.path.join(output_folder, f"signature__fake_{i}.bin")
+        output_path = os.path.join(output_folder, f"signature_{2}.bin")
 
         # Ký tài liệu với private key tương ứng
         sign_document_with_key(document_path, private_key_path, output_path)
@@ -51,11 +51,11 @@ def sign_multiple_documents(documents_folder, keys_folder, output_folder, num_do
 
 # Đường dẫn đến các thư mục chứa tài liệu và khóa riêng
 documents_folder = "D:/wordspace/PYTHON/do_an_chu_ky_so/data_fake/documents_fake"
-keys_folder = "D:/wordspace/PYTHON/do_an_chu_ky_so/data_fake/keys_fake/private_keys"
+keys_folder = "D:/wordspace/PYTHON/do_an_chu_ky_so/data_true/keys/private_keys"
 output_folder = "D:/wordspace/PYTHON/do_an_chu_ky_so/data_fake/signatures_fake"
 
 # Số lượng tài liệu và khóa riêng
-num_documents = 2000
+num_documents = 1
 
 # Ký tất cả tài liệu với các khóa riêng tương ứng
 sign_multiple_documents(documents_folder, keys_folder,

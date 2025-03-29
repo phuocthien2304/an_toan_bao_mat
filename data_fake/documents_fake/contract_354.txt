@@ -1,0 +1,17 @@
+
+    HỢP ĐỒNG GIAO DỊCH NGÂN HÀNG
+    Số hợp đồng: CONTRACT-182830
+
+    Hôm nay, ngày 09/04/2024, giữa:
+
+    BÊN A: TFwYFvdcxt (Số ĐKKD: 368663850)
+    BÊN B: yXGvoOvyAf (Số ĐKKD: 781657723)
+
+    Các bên đã thống nhất ký kết hợp đồng giao dịch ngân hàng với các điều khoản sau:
+
+    1. Số tiền giao dịch: 279852.02 VND
+    2. Điều khoản thanh toán:
+        Điều khoản 2: Bên B sẽ sử dụng số tiền này để thực hiện các giao dịch kinh doanh hợp pháp.
+    3. Thời gian thực hiện giao dịch: 10 ngày kể từ ngày ký hợp đồng.
+
+    Các bên c

@@ -1,0 +1,15 @@
+
+    HỢP ĐỒNG GIAO DỊCH NGÂN HÀNG
+    Số hợp đồng: CONTRACT-977270
+
+    Hôm nay, ngày 16/01/2025, giữa:
+
+    BÊN A: rLoBMoZYLc (Số ĐKKD: 768546877)
+    BÊN B: LuKHaJrQEu (Số ĐKKD: 119766614)
+
+    Các bên đã thống nhất ký kết hợp đồng giao dịch ngân hàng với các điều khoản sau:
+
+    1. Số tiền giao dịch: 573709.17 VND
+    2. Điều khoản thanh toán:
+        Điều khoản 2: Bên B sẽ sử dụng số tiền này để thực hiện các giao dịch kinh doanh hợp pháp.
+    3. Thời gian thực hiện giao dịch: 10 ngày kể từ ngày ký hợp đồng.

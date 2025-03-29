@@ -1,0 +1,15 @@
+
+    HỢP ĐỒNG GIAO DỊCH NGÂN HÀNG
+    Số hợp đồng: CONTRACT-795693
+
+    Hôm nay, ngày 17/06/2024, giữa:
+
+    BÊN A: wwGfIVHQhG (Số ĐKKD: 295324325)
+    BÊN B: enYEUuAUrl (Số ĐKKD: 708174045)
+
+    Các bên đã thống nhất ký kết hợp đồng giao dịch ngân hàng với các điều khoản sau:
+
+    1. Số tiền giao dịch: 279267.99 VND
+    2. Điều khoản thanh toán:
+        Điều khoản 4: Bên 4
+    

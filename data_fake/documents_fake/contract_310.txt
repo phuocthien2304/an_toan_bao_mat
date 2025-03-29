@@ -1,0 +1,15 @@
+
+    HỢP ĐỒNG GIAO DỊCH NGÂN HÀNG
+    Số hợp đồng: CONTRACT-902009
+
+    Hôm nay, ngày 07/06/2024, giữa:
+
+    BÊN A: sunswJWGtN (Số ĐKKD: 852948821)
+    BÊN B: KZqIhatOuB (Số ĐKKD: 804479820)
+
+    Các bên đã thống nhất ký kết hợp đồng giao dịch ngân hàng với các điều khoản sau:
+
+    1. Số tiền giao dịch: 493881.15 VND
+    2. Điều khoản thanh toán:
+        Điều khoản 3: Bên A và Bên B có trách nhiệm thực hiện nghĩa vụ tài chính theo các điều khoản đã thỏa thuận.
+    3. Thời gian t

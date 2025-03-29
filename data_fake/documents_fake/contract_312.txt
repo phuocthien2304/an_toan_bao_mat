@@ -1,0 +1,15 @@
+
+    HỢP ĐỒNG GIAO DỊCH NGÂN HÀNG
+    Số hợp đồng: CONTRACT-602520
+
+    Hôm nay, ngày 18/07/2024, giữa:
+
+    BÊN A: WuvXjMJWzN (Số ĐKKD: 247665802)
+    BÊN B: NgweezJRAM (Số ĐKKD: 700940370)
+
+    Các bên đã thống nhất ký kết hợp đồng giao dịch ngân hàng với các điều khoản sau:
+
+    1. Số tiền giao dịch: 849951.03 VND
+    2. Điều khoản thanh toán:
+        Điều khoản 5: Hợp đồng này có hiệu lực kể từ ngày ký và có thể được gia hạn sau khi hai bên thỏa thuận.
+    3. Thời gian t
