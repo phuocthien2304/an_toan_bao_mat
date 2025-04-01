@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSA - Mẫu Chữ Ký Số</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 10px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 22px;
+            color: #333;
+        }
+        .form-group {
+            margin: 10px;
+        }
+        .form-group label {
+            display: block;
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 95%;
+            padding: 10px;            
+            font-size: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group button {
+            padding: 10px 20px;
+            font-size: 12px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #555;
+        }
+        .form-group textarea {
+            width: 95%;
+            padding: 10px;
+            font-size: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>RSA - Mẫu Chữ Ký Số</h1>
+        <div class="form-group">
+            <label for="p">Nhập p (số nguyên tố):</label>
+            <input type="text" id="p" value="61" placeholder="Nhập một số nguyên tố (p)">
+        </div>
+        <div class="form-group">
+            <label for="q">Nhập q (số nguyên tố):</label>
+            <input type="text" id="q" value="37" placeholder="Nhập một số nguyên tố khác (q)">
+        </div>
+        <div class="form-group">
+            <button onclick="generateKeys()">Tạo Khóa</button>
+        </div>
+        <div class="form-group">
+            <label for="process">Quá trình:</label>
+            <textarea id="process" rows="4" readonly></textarea>
+        </div>
+        <div class="form-group hidden" id="keyGroup">
+            <label for="keys">Khóa:</label>
+            <textarea id="keys" rows="1" readonly></textarea> 
+        </div>
+        <div class="form-group">
+            <label for="message">Nhập một thông điệp:</label>
+            <input type="text" id="message" placeholder="Nhập một thông điệp">
+        </div>
+        <div class="form-group">
+            <button onclick="createDigitalSignature()">Tạo Chữ Ký Số</button>
+        </div>
+        <div class="form-group">
+            <label for="createDigitalSignatureProcess">Quá trình Tạo Chữ Ký Số</label>
+            <textarea id="createDigitalSignatureProcess" rows="6" readonly></textarea>
+        </div>
+        <div class="form-group">
+            <button onclick="verify()">Xác Minh Chữ Ký Số</button>
+        </div>
+        <div class="form-group">
+            <label for="verifyDigitalSignatureProcess">Quá trình Xác Minh</label>
+            <textarea id="verifyDigitalSignatureProcess" rows="12" readonly></textarea>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script>
+        let e = -1;
+        let d = -1;
+        let n = -1;
+        let phi = -1;
+
+        function generateKeys() {
+            let st = "";
+            const p = +document.getElementById('p').value;
+            const q = +document.getElementById('q').value;
+            n = p * q;
+            phi = (p - 1) * (q - 1);
+            st += `n = ${p} * ${q} = ${n} \n`;
+            st += `phi(n) = (${p}-1) * (${q}-1) =  ${phi} \n`;
+            
+            // Chọn e sao cho 1 < e < phi(n) và gcd(e, phi(n)) = 1
+            e = 2;
+            while (e < phi) {
+                if (gcd(e, phi) === 1) {
+                    break;
+                }
+                e++;
+            }
+
+            // Chọn d sao cho d * e = 1 (mod phi(n))
+            d = 1;
+            while (d < phi) {
+                if ((e * d) % phi === 1) {
+                    break;
+                }
+                d++;
+            }
+            
+            st += `Chọn e = ${e};     [gcd(${e},${phi}) = 1] \n`;
+            st += `Sau đó d = ${d};      [${d}*${e} = ${d*e} = 1 (mod ${phi})]  \n`;
+            document.getElementById('process').value = st;
+            document.getElementById('keys').value = `Khóa Công Khai: pk = (${e}, ${n});   Khóa Bí Mật: sk = (${d}, ${n})`;
+            document.getElementById('keyGroup').classList.remove('hidden');
+        }
+
+        function gcd(a, b) {
+            if (b === 0) {
+                return a;
+            }
+            return gcd(b, a % b);
+        }
+
+        function modPow(base, exponent, modulus) {
+            if (modulus === 1) {
+                return 0;
+            }
+            let result = 1;
+            base = base % modulus;
+            while (exponent > 0) {
+                if (exponent % 2 === 1) {
+                    result = (result * base) % modulus;
+                }
+                exponent = exponent >> 1;
+                base = (base * base) % modulus;
+            }
+            return result;
+        }
+
+        let signatureBytes = [];
+        function createDigitalSignature() {
+            signatureBytes = [];
+            const message = document.getElementById('message').value;
+            if (!message) {
+                document.getElementById('createDigitalSignatureProcess').value = "Thông điệp không được để trống.";
+                return;
+            }
+            const messageHashString = CryptoJS.SHA256(message).toString();
+            // Đổi messageHash sang 1 mảng 2 bytes
+            const msgBytes = [];
+            for (let i = 0; i < messageHashString.length; i += 2) {
+                msgBytes.push(parseInt(messageHashString.substr(i, 2), 16));
+            }
+            
+            // Tạo chữ ký
+            for (let i = 0; i < msgBytes.length; i++) {
+                const byte = msgBytes[i];
+                const encryptedByte = modPow(byte, d, n);
+                signatureBytes.push(encryptedByte);
+            }
+            document.getElementById('createDigitalSignatureProcess').value = `Băm Thông Điệp:\n ${msgBytes.join(' ')}\nChữ Ký Số:\n ${signatureBytes.join(' ')}`;
+        }
+
+        function verify() {
+            const message = document.getElementById('message').value;
+            if (!message) {
+                document.getElementById('verifyDigitalSignatureProcess').value = "Thông điệp không được để trống.";
+                return;
+            }
+            const messageHashString = CryptoJS.SHA256(message).toString();
+            const msgBytes = [];
+            for (let i = 0; i < messageHashString.length; i += 2) {
+                msgBytes.push(parseInt(messageHashString.substr(i, 2), 16));
+            }
+
+            document.getElementById('verifyDigitalSignatureProcess').value = `Thông Điệp Nhận Được:\n ${message}\n\nBăm Thông Điệp:\n ${msgBytes.join(' ')}\nChữ Ký Số:\n ${signatureBytes.join(' ')}\n`;
+            
+            // Giải mã chữ ký
+            let decryptedSignature = [];
+            for (let i = 0; i < signatureBytes.length; i++) {
+                const byte = signatureBytes[i];
+                const decryptedByte = modPow(byte, e, n);
+                decryptedSignature.push(decryptedByte);
+            }
+
+            document.getElementById('verifyDigitalSignatureProcess').value += `Chữ Ký Giải Mã:\n ${decryptedSignature.join(' ')}\n\n`;
+            
+            if (JSON.stringify(msgBytes) === JSON.stringify(decryptedSignature)) {
+                document.getElementById('verifyDigitalSignatureProcess').value += "Chữ Ký Số hợp lệ.";
+            } else {
+                document.getElementById('verifyDigitalSignatureProcess').value += "Chữ Ký Số không hợp lệ.";
+            }
+        }
+    </script>    
+</body>
+</html>
